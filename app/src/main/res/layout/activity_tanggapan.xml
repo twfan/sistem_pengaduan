@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".TanggapanActivity">
+
+    <com.andexert.library.RippleView
+        android:id="@+id/ripTampilkanSolusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnTampilSolusi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Tampilkan Solusi Petugas" />
+    </com.andexert.library.RippleView>
+
+    <TextView
+        android:id="@+id/TxtTanggapan"
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Belum ada tanggapan dari petugas. ."
+        />
+
+    <com.andexert.library.RippleView
+        android:id="@+id/ripTutupAplikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:id="@+id/btnTutupAplikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="20sp"
+            android:text="Tutup Aplikasi" />
+    </com.andexert.library.RippleView>
+
+
+</LinearLayout>

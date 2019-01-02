@@ -1,0 +1,4 @@
+#Wed Jan 02 11:54:51 ICT 2019
+base.0=C\:\\Users\\ubuntu\\Documents\\SistemPengaduan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
